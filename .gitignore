@@ -14,3 +14,21 @@
 !/dist/etroboc_common/
 !/make
 !/update
+!/docs/
+# ===== etrobo関連 =====
+app
+asp
+*.asp
+currentapp
+*.status
+__race/
+*.log
+log.txt
+*.md5sum
+result.json
+
+# ===== Claude Code関連 =====
+# セッション履歴（個人ごとに異なるため除外）
+.claude/projects/
+# ローカル個人設定（チーム共有不要）
+.claude/settings.local.json
